@@ -1,6 +1,6 @@
 {
-    "name": "tyghaykal/laravel-seed-generator",
-    "description": "Laravel Seed Generator",
+    "name": "ben-norton/seeder-generator",
+    "description": "Laravel Seeder Generator",
     "keywords": [
         "laravel",
         "seed",
@@ -11,19 +11,19 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Andre Haykal Rachman",
-            "email": "andrecsd9@gmail.com"
+            "name": "Ben Norton",
+            "email": "michaelnorton.ben@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "TYGHaykal\\LaravelSeedGenerator\\": "src/"
+            "GeoAPIs\\SeederGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "TYGHaykal\\LaravelSeedGenerator\\SeedGeneratorServiceProvider"
+                "GeoAPIs\\SeederGenerator\\SeedGeneratorServiceProvider"
             ]
         }
     },
@@ -39,10 +39,10 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "TYGHaykal\\LaravelSeedGenerator\\Tests\\": "tests/",
-            "TYGHaykal\\LaravelSeedGenerator\\Tests\\Models\\": "tests/Models",
-            "TYGHaykal\\LaravelSeedGenerator\\Tests\\Database\\Migrations\\": "tests/database/migrations",
-            "TYGHaykal\\LaravelSeedGenerator\\Tests\\Database\\Seeders\\": "tests/database/seeders",
+            "GeoAPIs\\LaravelSeedGenerator\\Tests\\": "tests/",
+            "GeoAPIs\\LaravelSeedGenerator\\Tests\\Models\\": "tests/Models",
+            "GeoAPIs\\LaravelSeedGenerator\\Tests\\Database\\Migrations\\": "tests/database/migrations",
+            "GeoAPIs\\LaravelSeedGenerator\\Tests\\Database\\Seeders\\": "tests/database/seeders",
             "App\\Models\\": "tests/Models/",
             "App\\": "tests/Models/"
         }
